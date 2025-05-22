@@ -1,0 +1,14 @@
+:root{
+    --transition: ease-in-out 0.3s;
+}
+
+
+.links-container{
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.show-links{
+    height: 200px;
+}
